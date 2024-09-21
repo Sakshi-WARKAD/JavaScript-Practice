@@ -1,4 +1,7 @@
-/*const promiseOne = new Promise(function(resolve, reject){
+#Promises
+Practice of promise in javascript.
+
+const promiseOne = new Promise(function(resolve, reject){
     // Async task
     setTimeout(function(){
         console.log("Async task is completed");
@@ -8,10 +11,10 @@
 promiseOne.then(function(){
     console.log("promise is consumed");
 })
-*/
+
 
 // 2nd promise
-/*
+
 new Promise(function(resolve, reject){
     setTimeout(function(){
         console.log("Asyns task 2 is completed");
@@ -21,7 +24,7 @@ new Promise(function(resolve, reject){
 }).then(function(){
     console.log("Promise is consumed");
 })
-*/
+
 
 // 3rd Promise
 new Promise(function(resolve, reject){
@@ -57,7 +60,3 @@ new Promise(function(resolve, reject){
 })
 .finally(() => console.log("its either executed aur rejected"));
 
-
-// 5th promise pattern
-
-new 
